@@ -1,0 +1,77 @@
+/*-------------------------------------
+| Core
+-------------------------------------*/
+body 			{ background-color: #334a55; font-family: Helvetica, Arial, sans-serif; }
+#container 		{ background-color: #334a55; padding: 20px; width: 100%; margin: auto; }
+
+/*-------------------------------------
+| Parents
+-------------------------------------*/
+
+header 			{	padding: 20px; background-color: white; text-align: center; }
+nav#mainmenu 	{	padding: 20px; background-color: #1b5d80; }
+#main 			{ 	padding: 20px; background-color: white; }
+#main article 	{	padding: 20px; background-color: #c6e8fa; }
+#main aside 	{	padding: 20px; background-color: #1b5d80; }
+footer 			{	padding: 20px; background-color: #1b5d80; text-align: center; line-height: 100px; font-size: 12px; }
+
+/*-------------------------------------
+| Nav
+-------------------------------------*/
+
+nav#mainmenu 			{ text-align: center; }
+nav#mainmenu a 			{ 
+						   display: inline-block;
+					   
+						   width: 150px;
+						   line-height: 50px;
+						   background-color: #022436;
+						   color: #fff;
+					   
+						   text-decoration: none;
+						   text-transform: uppercase;
+						   border-radius: 10px 0px; }
+nav#mainmenu a:hover 	{ background-color: #C19E13; }
+nav#mainmenu a.chosen 	{ background-color: #FFFFFF; color: #1b5d80; }
+
+/*-------------------------------------
+| Positioning
+-------------------------------------*/
+
+
+
+
+/*-------------------------------------
+| Floats and Box Sizing
+-------------------------------------*/
+
+#main * 		{ box-sizing: border-box; }
+/*#main article 	{ 
+				  float: right;
+				  width: 65% }
+#main aside 	{ 
+				  float: left;
+				  width: 35% }*/
+
+#main article.fullwidth {float: none;
+						width: auto;}
+
+
+/*-------------------------------------
+| Clearfix
+| http://nicolasgallagher.com/micro-clearfix-hack/
+-------------------------------------*/
+.cf:before,.cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf { *zoom: 1; }
+
+/*-------------------------------------
+| Descendants
+-------------------------------------*/
+
+/*-------------------------------------
+| Gallery Page Styles
+-------------------------------------*/
+
+
+

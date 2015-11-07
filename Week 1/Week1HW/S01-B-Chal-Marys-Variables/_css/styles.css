@@ -1,0 +1,19 @@
+/*-------------------------------------
+| Core
+-------------------------------------*/
+body 			{ background-color: #333; font-family: Helvetica, Arial, sans-serif; }
+#container 		{ background-color: #eee; padding: 20px; width: 960px; margin: auto; }
+
+/*-------------------------------------
+| Parents
+-------------------------------------*/
+header 			{ padding: 20px; background-color: #73B56B; text-align: center; line-height: 200px; font-size: 50px; }
+article 		{ padding: 20px; background-color: #FFFFFF; }
+
+/*-------------------------------------
+| Descendants
+-------------------------------------*/
+article p 		{ width: 400px; margin: 50px auto; line-height: 40px; font-size: 20px; background-color: #73B56B; padding: 30px; }
+article span 	{ padding: 3px 5px; background-color: #fff; }
+
+

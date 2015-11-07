@@ -1,0 +1,62 @@
+/*-------------------------------------
+| Core
+-------------------------------------*/
+body 			{ background-color: #333; font-family: Helvetica, Arial, sans-serif; }
+#container 		{ background-color: #eee; padding: 20px; width: 960px; margin: auto; }
+
+/*-------------------------------------
+| Parents
+-------------------------------------*/
+header 			{	padding: 20px; background-color: #B9375A; text-align: center; line-height: 150px; font-size: 30px; }
+nav#mainmenu 	{	padding: 20px; background-color: #6F2137; }
+#main 			{ 	padding: 20px; background-color: #FFFFFF; }
+#main article 	{	padding: 20px; background-color: #389BD8; }
+#main aside 	{	padding: 20px; background-color: #9785E8; }
+footer 			{	padding: 20px; background-color: #B9375A; text-align: center; line-height: 100px; font-size: 12px; }
+
+/*-------------------------------------
+| Nav
+-------------------------------------*/
+nav#mainmenu 			{ text-align: center; }
+nav#mainmenu a 			{ 
+						   display: inline-block;
+					   
+						   width: 150px;
+						   line-height: 50px;
+						   background-color: #5A1529;
+						   color: #fff;
+					   
+						   text-decoration: none;
+						   text-transform: uppercase;
+						   border-radius: 10px 0px; }
+nav#mainmenu a:hover 	{ background-color: #270912; }
+nav#mainmenu a.chosen 	{ background-color: #946C23; color: yellow; }
+
+/*-------------------------------------
+| Box Sizing, Floats, and Clearfix
+-------------------------------------*/
+#main * 		{ box-sizing: border-box; }
+#main article 	{ 
+				  float: left;
+				  width: 65% }
+#main aside 	{ 
+				  float: left;
+				  width: 35% }
+
+/*-------------------------------------
+| Clearfix
+| http://nicolasgallagher.com/micro-clearfix-hack/
+-------------------------------------*/
+.cf:before,.cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf { *zoom: 1; }
+
+/*-------------------------------------
+| Descendants
+-------------------------------------*/
+#main article h1 	{  }
+#main article p 	{  }
+#main aside h1		{  }
+#main aside p 		{  }
+
+
